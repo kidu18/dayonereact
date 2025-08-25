@@ -16,7 +16,7 @@ const Home = ({fruitlists,colorlists}) => {
 
     return (
     <div>
-      <h1>Counter App</h1>
+      <h1>Counter App on git</h1>
             <p>Count: {count}</p>
             <button onClick={()=>setCount(count+1)} disabled={count===max}>increase</button>
             <button onClick={()=>setCount(count-1)}  disabled={count===min}>decrease</button>
